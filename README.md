@@ -12,8 +12,8 @@ B. Divisible by 3 Problem
 
 This script creates a 10x10 NumPy array where each element is the square of integers ranging from 1 to 100. It then identifies and extracts elements from this array that are divisible by 3. 
 
-1. I first created a 10 by 10 array, where each element is the square of the integers from 1 to 100. This is done by creating a sequence of numbers from 1 to 100, squaring each number, and reshaping the resulting list into a 10x10 array.
-2. I then identified which of them are divisible by 3. I did this by using NumPy’s array indexing to select elements where the modulo operation (% 3) equals 0.
-3. Then, I saved the identified divisible by 3 elements to a file named div_by_3.npy. 
+1. First, create a 10 by 10 array, where each element is the square of the integers from 1 to 100. This is done by creating a sequence of numbers from 1 to 100, squaring each number, and reshaping the resulting list into a 10x10 array.
+2. Then, identify which of them are divisible by 3. We can do this by using NumPy’s array indexing to select elements where the modulo operation (% 3) equals 0.
+3. Then, save the identified divisible by 3 elements to a file named div_by_3.npy. 
 4. Print the results.
    
