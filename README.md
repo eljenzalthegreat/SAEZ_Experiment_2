@@ -1,6 +1,6 @@
-ECE2112 - EXPERIMENT 2
+# ECE2112 - EXPERIMENT 2
 
-INTRODUCTION TO PYTHON PROGRAMMING
+## INTRODUCTION TO PYTHON PROGRAMMING
 
 I. Intended Learning Outcomes:
 1. To identify the codes and functions incorporated in the Numpy library
@@ -10,7 +10,7 @@ II. Instructions:
 Write a Python script/code in the Jupyter Notebook to do the given problems. 
 
 
-A. Normalization of a Random Array
+### A. Normalization of a Random Array
 
 Normalization is one of the most basic preprocessing techniques in data analytics. This involves centering and scaling process. Centering means subtracting the data from the mean and scaling means dividing with its standard deviation. Mathematically, normalization can be expressed as
 
@@ -21,7 +21,7 @@ In Python, element-wise mean and element-wise standard deviation can be obtained
 
 In this problem, create a random 5 x 5 ndarray and store it to variable X. Normalize X. Save your normalized ndarray as X_normalized.npy
 
-How I created the Python code:
+#### How I created the Python code:
 
 1. The script starts by creating a 5x5 array filled with random floating-point numbers between 0 and 1. This array is generated using NumPy’s np.random.rand function.
 2. Next, the mean (average) and standard deviation of the values in the array are computed. The mean gives the central value of the array, while the standard deviation measures the spread of the values from the mean.
@@ -30,7 +30,7 @@ How I created the Python code:
 5. Print the results.
 
 
-B. Divisible by 3 Problem
+### B. Divisible by 3 Problem
 
 Create the following 10 x 10 ndarray.
 
@@ -38,7 +38,7 @@ Create the following 10 x 10 ndarray.
 
 which are the squares of the first 100 positive integers. From this ndarray, determine all the elements that are divisible by 3. Save the result as div_by_3.npy
 
-How I did it:
+#### How I did it:
 
 1. First, create a 10 by 10 array, where each element is the square of the integers from 1 to 100. This is done by creating a sequence of numbers from 1 to 100, squaring each number, and reshaping the resulting list into a 10x10 array.
 2. Then, identify which of them are divisible by 3. We can do this by using NumPy’s array indexing to select elements where the modulo operation (% 3) equals 0.
