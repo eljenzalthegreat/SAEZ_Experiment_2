@@ -1,3 +1,15 @@
+ECE2112 - EXPERIMENT 2
+
+INTRODUCTION TO PYTHON PROGRAMMING
+
+I. Intended Learning Outcomes:
+1. To identify the codes and functions incorporated in the Numpy library
+2. To be able to apply and use the different codes and functions in creating a Python program using a Numpy library
+
+II. Instructions:
+Write a Python script/code in the Jupyter Notebook to do the given problems. You may submit your Jupyter
+notebook in the dedicated submission bin
+
 A. Normalization of a Random Array
    
 This script generates a random 5x5 array of floating-point numbers between 0 and 1. It then normalizes the array by subtracting the mean and dividing by the standard deviation. The normalized array is saved to a file and both the original and normalized arrays are printed.
@@ -7,6 +19,7 @@ This script generates a random 5x5 array of floating-point numbers between 0 and
 3. Then, use the formula Z = (Original Value - mean) / Standard Deviation. This transformation adjusts the range of values in the array to be centered around 0, with a consistent scale.
 4. The normalized array is saved to a file (X_normalized.npy) using NumPy’s np.save function.
 5. Print the results.
+
 
 B. Divisible by 3 Problem
 
