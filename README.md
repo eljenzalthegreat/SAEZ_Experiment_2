@@ -6,12 +6,12 @@
 This repository contains the code for Experiment 2 of the ECE2112 course, focusing on basic data preprocessing techniques using the NumPy library in Python. The experiments demonstrate how to normalize arrays and filter elements based on specific criteria.
 
 
-I. Intended Learning Outcomes:
+#### I. Intended Learning Outcomes:
 1. To identify the codes and functions incorporated in the Numpy library
 2. To be able to apply and use the different codes and functions in creating a Python program using a Numpy library
 
 
-II. Instructions:
+#### II. Instructions:
 Write a Python script/code in the Jupyter Notebook to do the given problems. 
 
 
