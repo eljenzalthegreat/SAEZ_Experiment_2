@@ -59,6 +59,12 @@ div_by_3.npy - Contains the elements from the 10x10 ndarray that are divisible b
 ### Contact
 
 For any questions or feedback, please contact hopersaez@gmai.com
+
+## Personal Challenges I faced
+
+For the first problem, I had some initial confusions about the input since it involves generating a 5x5 array of random integers. The task required normalizing this array using a z-table formula, which involves two main steps: centering and scaling. Centering is achieved by subtracting the mean of the data from each element, and scaling involves dividing by the standard deviation. To do this process, I used the .std() and .mean() functions from the numpy library to compute the standard deviation and mean, respectively. After normalizing the array, I saved it as a .npy file, as specified in the instructions. To ensure the normalization was performed correctly, I first printed the original array and manually calculated the normalization for a single element to cross-verify the results. Subsequently, I printed the normalized array to check if the final output met the expected criteria for the normalization task.
+
+In the second problem, I did not encounter any significant challenges since the core concept was similar to that of the first problem.
    
 ### Acknowledgements
 Special thanks to the instructors and resources of the ECE2112 course for providing the foundational concepts.
